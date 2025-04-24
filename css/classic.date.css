@@ -136,6 +136,20 @@
   margin-top: .75em;
   margin-bottom: .5em;
 }
+@media (max-width: 24.5em) {
+    .picker__select--month,
+    .picker__select--year {
+        width: 40%;  /* Slightly larger selector width on mobile */
+        font-size: 1.1em;
+    }
+
+    .picker__nav--prev,
+    .picker__nav--next {
+        padding: .5em;
+        width: 2em;
+        height: 2em;
+    }
+}
 @media (min-height: 33.875em) {
   .picker__table {
     margin-bottom: .75em;

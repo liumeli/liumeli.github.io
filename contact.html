@@ -14,6 +14,7 @@
     <meta name="author" content="">
 
     <!-- Site Icons -->
+	<link rel="icon" href="images/Fusion-Favicon.png" sizes="16x16 32x32 48x48" type="image/png">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
@@ -52,7 +53,7 @@
 						<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
 						<li class="nav-item"><a class="nav-link" href="reservations.html">Reservations</a></li>
 						<li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
-						<li class="nav-item"><a class="nav-link">Order Online</a></li>
+						<li class="nav-item"><a class="nav-link" href="https://www.doordash.com">Order Online</a></li>
 <!-- old dropdown menu
 						<li class="nav-item dropdown">
 							<a class="nav-link" href="#" data-toggle="dropdown">Reservations</a>
@@ -95,7 +96,8 @@
   <form action="https://formspree.io/f/mldgwrda" method="POST">
     <div class="container">
       <!-- 2x2 Grid with Location, Phone, Email, and Hours -->
-      <div class="row">
+      <div class="contact-info-grid">
+		<div class="row">
         <div class="col-md-6">
           <div class="heading-title text-left">
             <h2>Location:</h2>
@@ -119,12 +121,13 @@
             <h3><strong>fusionrestaurantel@gmail.com<br></strong></h3>
           </div>
         </div>
+		  </div>
       </div>
 
       <!-- Contact Us Section -->
       <div class="row">
         <div class="heading-title col-lg-12">
-          <h2 class="text-center">Contact Us!</h2>
+  
           <h3 class="text-center"><strong>Didn't find what you're looking for? We'd love to hear from you. Fill out the form below, and we'll get back to you soon.</strong></h3>
         </div>
       </div>
@@ -136,32 +139,32 @@
             <div class="row">
               <div class="col-md-12 col-xl-6">
                 <div class="form-group">
-                  <input type="text" class="form-control" id="first-name" name="first-name" placeholder="First Name" required data-error="Please enter your first name">
+                  <input type="text" class="form-control" id="first-name" name="first-name" placeholder="First Name*" required data-error="Please enter your first name">
                   <div class="help-block with-errors"></div>
                 </div>                                 
               </div>
               <div class="col-md-12 col-xl-6">
                 <div class="form-group">
-                  <input type="text" class="form-control" id="last-name" name="last-name" placeholder="Last Name" required data-error="Please enter your last name">
+                  <input type="text" class="form-control" id="last-name" name="last-name" placeholder="Last Name">
                   <div class="help-block with-errors"></div>
                 </div>                                 
               </div>
               <div class="col-md-12">
                 <div class="form-group">
-                  <input type="text" placeholder="Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
+                  <input type="text" placeholder="Email" id="email" class="form-control" name="email">
                   <div class="help-block with-errors"></div>
                 </div> 
               </div>
               <div class="col-md-12">
                 <div class="form-group">
-                  <input type="text" placeholder="Phone Number" id="phone-number" class="form-control" name="name" required data-error="Please enter your phone number">
+                  <input type="text" placeholder="Phone Number*" id="phone-number" class="form-control" name="phone-number" required data-error="Please enter your phone number">
                   <div class="help-block with-errors"></div>
                 </div> 
               </div>
       
               <div class="col-md-12">
                 <div class="form-group"> 
-                  <textarea class="form-control" id="message" placeholder="Message" rows="4" data-error="Write your message" required></textarea>
+                  <textarea class="form-control" id="message" placeholder="Message*" rows="4" data-error="Please write your message" required></textarea>
                   <div class="help-block with-errors"></div>
                 </div>
                 <div class="submit-button text-center">
@@ -250,18 +253,15 @@
 				<div class="col-lg-3 col-md-6">
 					<h3>Subscribe</h3>
 					<div class="subscribe_form">
-						<form class="subscribe_form">
+  						<form action="https://formspree.io/f/xgvkedab" method="POST">
 							<input name="EMAIL" id="subs-email" class="form_input" placeholder="Email Address..." type="email">
 							<button type="submit" class="submit">SUBSCRIBE</button>
 							<div class="clearfix"></div>
 						</form>
 					</div>
 					<ul class="list-inline f-social">
-						<li class="list-inline-item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 					</ul>
 				</div>
 			</div>
